@@ -1,0 +1,37 @@
+function loder() {
+  const loder = document.querySelector('.loder');
+  setTimeout(function() {
+    loder.style.display = 'none'
+  }, 1000)
+  loder.classList.add('active');
+}
+
+setTimeout(loder, 3500);
+
+
+
+    <section>
+        <div class="loder">
+            <span>D</span><span>I</span><span>M</span><span>A</span>
+        </div>
+    </section>
+
+
+
+
+
+    <section>
+        <div class="loder">
+            <span>D</span><span>I</span><span>M</span><span>A</span>
+        </div>
+    </section>
+    <section>
+        <div class="opacityBox">
+            <div class="box">
+                <p class="txt-box">
+                    Най сайте предусмотрена фоновая музыка, <br> включить ещё можно по нажатию<br> на крутящуюся изображение.
+                </p>
+                <div class="close"></div>
+            </div>
+        </div>
+    </section>
